@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 
-span{
+span {
   font-size: 0.8rem;
 }
 
-.fontContainer{
+.fontContainer {
   margin: 2rem;
   border: 2rem;
   background-color: aqua;
@@ -18,31 +18,38 @@ span{
   width: 320px;
 }
 
-.fontContainer:hover{
+.fontContainer:hover {
   box-shadow: 0.1rem 0.2rem coral;
 }
 
-.fontBox{
+.fontBox {
   padding: 0.5rem;
   background-color: violet;
-  height:25%;
+  height: 25%;
+  width: 100%;
   font-size: 2rem;
   align-items: center;
   padding-top: 1rem;
   text-align: center;
 }
 
-.fontBox:hover{
-  color:white;
+.choiceBox {
+  float: left;
+
 }
 
-.textBox{
+.fontBox:hover {
+  color: white;
+}
+
+.textBox {
   padding: 0.5rem;
   background-color: cornflowerblue;
-  height:75%;
+  height: 75%;
+  width: 100%;
 }
 
-.inputBox{
+.inputBox {
   padding: 0.5rem;
   background-color: transparent;
   width: 100%;
@@ -52,11 +59,23 @@ span{
   font-size: 2rem;
 }
 
-.digital-font{
+.digital-font {
   font-family: 'LAB디지털';
-
 }
 
+.classB-font {
+  font-family: '국립박물관문화재단클래식B';
+}
+
+
+
+
+@font-face {
+  font-family: '국립박물관문화재단클래식B';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 
@@ -86,10 +105,10 @@ span{
 
 
 
-.test{
+.test {
   font-family: 'IBMPlexSansKR-Regular';
 }
 
-.test2{
+.test2 {
   font-family: 'takoyaki';
 }
