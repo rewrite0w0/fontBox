@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+span{
+  font-size: 0.8rem;
+}
+
+.fontContainer{
+  margin: 2rem;
+  border: 2rem;
+  background-color: aqua;
+  display: block;
+  height: 320px;
+  width: 320px;
+}
+
+.fontContainer:hover{
+  box-shadow: 0.1rem 0.2rem coral;
+}
+
+.fontBox{
+  padding: 0.5rem;
+  background-color: violet;
+  height:25%;
+  font-size: 2rem;
+  align-items: center;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.fontBox:hover{
+  color:white;
+}
+
+.textBox{
+  padding: 0.5rem;
+  background-color: cornflowerblue;
+  height:75%;
+}
+
+.inputBox{
+  padding: 0.5rem;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  resize: none;
+  font-size: 2rem;
+}
+
+.digital-font{
+  font-family: 'LAB디지털';
+
+}
+
+
+
+
+
+@font-face {
+  font-family: 'IBMPlexSansKR-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'takoyaki';
+  src: url('https://www.dafont.com/takoyaki-3.font') format('font');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'LAB디지털';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.test{
+  font-family: 'IBMPlexSansKR-Regular';
+}
+
+.test2{
+  font-family: 'takoyaki';
+}
