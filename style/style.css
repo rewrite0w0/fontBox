@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+button {
+  all: unset;
+}
+
 span {
   font-size: 0.8rem;
 }
@@ -129,6 +133,37 @@ select, option {
 
 
  */
+
+@font-face {
+  font-family: '';
+  src: url('https://cdn.jsdelivr.net/gh/rewrite0w0/fontBox@master/fontBox/drfont_daraehand_Basic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: '';
+  src: url('https://cdn.jsdelivr.net/gh/rewrite0w0/fontBox@master/fontBox/NotoSansKR-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: '';
+  src: url('https://cdn.jsdelivr.net/gh/rewrite0w0/fontBox@master/fontBox/%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8%EC%9E%AC%EB%8B%A8B.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: '';
+  src: url('https://cdn.jsdelivr.net/gh/rewrite0w0/fontBox@master/fontBox/drfont_daraehand_Basic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 @font-face {
