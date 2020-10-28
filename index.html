@@ -6,8 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./style/style.css">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Press Start 2P" rel="stylesheet">
-  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/press-start-2p" type="text/css"/> -->
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
@@ -18,53 +16,37 @@
 
   <article>
     <div class="fontContainer">
-      
+
       <div class="fontBox">
-        <button class="bold">B</button>
-        <button class="italic">I</button>
-        <select name="choiceFont" class="choiceBox">
-          <option key="0" value="blank" data="" class="" style="font-family: Press Start 2P;">fontList!</option>
-          <option key="1" value="" data="" class="" style="font-family: yg-jalnan;">잘난체</option>
-          <option key="2" value="" data="" class="" style="font-family: TTTogether;">TT투게더</option>
-          <option key="3" value="" data="" class="" style="font-family: Recipekorea;">레코체</option>
-          <option key="4" value="" data="" class="" style="font-family: TmonMonsori;">몬소리체</option>
-          <option key="5" value="" data="" class="" style="font-family: KBIZ한마음명조체;">KBIZ한마음명조체</option>
-          <option key="6" value="" data="" class="" style="font-family: MaplestoryBold;">메이플스토리볼트체</option>
-          <option key="7" value="" data="" class="" style="font-family: NanumBarunGothic;">나눔바른고딕체</option>
-          <option key="8" value="" data="" class="" style="font-family: nanumgothic;">나눔고딕체</option>
-          <option key="9" value="" data="" class="" style="font-family: ChosunBg;">조선견고딕</option>
-          <!-- <option key="10" value="" data="" class="" style="font-family: ;"></option>
-          <option key="11" value="" data="" class="" style="font-family: ;"></option>
-          <option key="12" value="" data="" class="" style="font-family: ;"></option>
-          <option key="13" value="" data="" class="" style="font-family: ;"></option>
-          <option key="14" value="" data="" class="" style="font-family: ;"></option>
-          <option key="15" value="" data="" class="" style="font-family: ;"></option>
-          <option key="16" value="" data="" class="" style="font-family: ;"></option> -->
-          
-          
-          
+        <div class="fontBoxLeft">
+          <div class="choiceContainer">
+            <select name="choiceFont" style="font-family: 'Press Start 2P';" class="choiceBox">
+              <option key="0" value="blank" data="" class="" style="font-family: 'Press Start 2P';">fontList!</option>
+              <option key="1" value="" data="" class="" style="font-family: yg-jalnan;">잘난체</option>
+              <option key="2" value="" data="" class="" style="font-family: TTTogether;">TT투게더</option>
+              <option key="3" value="" data="" class="" style="font-family: Recipekorea;">레코체</option>
+              <option key="4" value="" data="" class="" style="font-family: TmonMonsori;">몬소리체</option>
+              <option key="5" value="" data="" class="" style="font-family: KBIZ한마음명조체;">KBIZ한마음명조체</option>
+              <option key="6" value="" data="" class="" style="font-family: MaplestoryBold;">메이플스토리볼트체</option>
+              <option key="7" value="" data="" class="" style="font-family: NanumBarunGothic;">나눔바른고딕체</option>
+              <option key="8" value="" data="" class="" style="font-family: nanumgothic;">나눔고딕체</option>
+              <option key="9" value="" data="" class="" style="font-family: ChosunBg;">조선견고딕</option>
+              <option key="10" value="" data="" class="" style="font-family: drfont;">drfont</option>
+              <option key="11" value="" data="" class="" style="font-family: NotoSansKR;">NotoSansKR</option>
+              <option key="12" value="" data="" class="" style="font-family: circleB;">동그라미M</option>
+              <option key="13" value="" data="" class="" style="font-family: circleM;">동그라미B</option>
+              <!-- <option key="14" value="" data="" class="" style="font-family: ;"></option>
+              <option key="15" value="" data="" class="" style="font-family: ;"></option>
+              <option key="16" value="" data="" class="" style="font-family: ;"></option> -->
+            </select>
+          </div>
+          <div class="buttonBox">
+            <button type="button" class="bold">굵</button>
+            <button type="button" class="italic">이</button>
+          </div>
+        </div>
+        <div class="fontBoxRight"></div>
 
-
-          <!-- <optgroup label="KR/EN"> -->
-            <!-- <option data="LAB디지털" value="digital" class="option-digital" style="font-family: LAB디지털;">디지털체</option>
-            <option value="classB" class="option-cb" style="font-family: LAB디지털;">클래식B</option> -->
-
-
-
-          <!-- </optgroup>
-          <optgroup label="KR only">
-
-          </optgroup> -->
-          <!-- <optgroup label="EN only">
-            <option value="Start2p" class="option-start2p">Start2P!</option>
-          </optgroup>
-          <optgroup label="JP">
-
-          </optgroup> -->
-
-        </select>
-        <div class="fontBoxChild"></div>
-        
       </div>
       <div class="textBox">
         <textarea name="textBox" class="inputBox" spellcheck="false" placeholder="오늘은 어떤 날이었나요?"></textarea>

@@ -1,7 +1,7 @@
-const fontBoxChild = document.querySelector(".fontBoxChild");
+const fontBoxChild = document.querySelector(".fontBoxRight");
 const inputBox = document.querySelector(".inputBox");
 const choiceBox = document.querySelector(".choiceBox");
-const FONT = `'Press Start 2P'`;
+const FONT = 'HELLO?'
 
 console.log(choiceBox.data);
 
