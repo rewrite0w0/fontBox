@@ -14,8 +14,8 @@ span {
   border: 2rem;
   background-color: aqua;
   display: block;
-  height: 320px;
-  width: 320px;
+  height: 480px;
+  width: 480px;
 }
 
 .fontContainer:hover {
@@ -35,7 +35,15 @@ span {
 
 .choiceBox {
   float: left;
+  color: tomato;
+  width: 10vh;
+}
 
+option{
+  color: tomato;
+}
+optgroup{
+  color: teal;
 }
 
 .fontBox:hover {
@@ -59,42 +67,41 @@ span {
   font-size: 2rem;
 }
 
+select, option {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.fontBoxChild .inputBox{
+  font-family: 'Press Start 2P';
+}
+/* optgroup {
+  font-family: monospace;
+} */
+/* 
 .digital-font {
   font-family: 'LAB디지털';
 }
 
 .classB-font {
-  font-family: '국립박물관문화재단클래식B';
+  font-family: 'monospace';
 }
 
+.option-digital {
+  font-family: 'LAB디지털';
+}
 
+.option-start2p {
+  font-family: 'Press Start 2P';
+} */
 
-
+/* 
 @font-face {
   font-family: '국립박물관문화재단클래식B';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
-
-
-
-
-@font-face {
-  font-family: 'IBMPlexSansKR-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'takoyaki';
-  src: url('https://www.dafont.com/takoyaki-3.font') format('font');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 
 @font-face {
   font-family: 'LAB디지털';
@@ -103,12 +110,108 @@ span {
   font-style: normal;
 }
 
-
-
-.test {
-  font-family: 'IBMPlexSansKR-Regular';
+@font-face {
+  font-family: 'Binggrae-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.test2 {
-  font-family: 'takoyaki';
+
+
+@font-face {
+  font-family: 'KyoboHand';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
+
+ */
+
+
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'TTTogether';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Recipekorea';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'TmonMonsori';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'KBIZ한마음명조체';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumMyungjo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MaplestoryBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+ }
+ 
+ 
+
+@font-face {
+  font-family: 'ChosunBg';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunBg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+.nanumgothic * {
+ font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+
+/* 더페이스샵잉크립 */
+/* noto sans kr bold */
+/* 777리틀베어 */
+/* 쿠키런 */
+/* drfont */
+/* 동그라미체1,2 */

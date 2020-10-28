@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FontBox</title>
+  <style>
+    * {
+      margin: 0;
+      border: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    span {
+      font-size: 0.8rem;
+    }
+
+    .fontContainer {
+      margin: 2rem;
+      border: 2rem;
+      background-color: aqua;
+      display: block;
+      height: 320px;
+      width: 320px;
+    }
+
+    .fontContainer:hover {
+      box-shadow: 0.1rem 0.2rem coral;
+    }
+
+    .fontBox {
+      padding: 0.5rem;
+      background-color: violet;
+      height: 25%;
+      width: 100%;
+      font-size: 2rem;
+      align-items: center;
+      padding-top: 1rem;
+      text-align: center;
+    }
+
+    .choiceBox {
+      float: left;
+      color: tomato;
+      width: 10vh;
+    }
+
+    option {
+      color: tomato;
+    }
+
+    optgroup {
+      color: teal;
+    }
+
+    .fontBox:hover {
+      color: white;
+    }
+
+    .textBox {
+      padding: 0.5rem;
+      background-color: cornflowerblue;
+      height: 75%;
+      width: 100%;
+    }
+
+    .inputBox {
+      padding: 0.5rem;
+      background-color: transparent;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      resize: none;
+      font-size: 2rem;
+    }
+
+    select,
+    option {
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    /* optgroup {
+  font-family: monospace;
+} */
+    /* 
+.digital-font {
+  font-family: 'LAB디지털';
+}
+
+.classB-font {
+  font-family: 'monospace';
+}
+
+.option-digital {
+  font-family: 'LAB디지털';
+}
+
+.option-start2p {
+  font-family: 'Press Start 2P';
+} */
+
+
+    @font-face {
+      font-family: '국립박물관문화재단클래식B';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'LAB디지털';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Binggrae-Bold';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+
+
+    @font-face {
+      font-family: 'KyoboHand';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Press Start 2P" rel="stylesheet">
+
+</head>
+
+<body>
+  <header></header>
+
+  <nav></nav>
+
+  <article>
+    <div class="fontContainer">
+      <div class="fontBox digital-font">
+        <select name="choiceFont" class="choiceBox">
+          <optgroup label="KR/EN">
+            <option value="blank">fontList!</option>
+            <option data="LAB디지털" value="digital" class="option-digital">디지털체</option>
+            <option value="classB" class="option-cb">클래식B</option>
+          </optgroup>
+          <optgroup label="KR only">
+
+          </optgroup>
+          <optgroup label="EN only">
+            <option value="Start2p" class="option-start2p">Start2P!</option>
+          </optgroup>
+          <optgroup label="JP">
+
+          </optgroup>
+
+        </select>
+        <div class="fontBoxChild"></div>
+
+      </div>
+      <div class="textBox">
+        <textarea name="textBox" class="inputBox" spellcheck="false" placeholder="오늘은 어떤 날이었나요?"></textarea>
+      </div>
+    </div>
+  </article>
+
+
+  <footer>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    const fontBoxChild = document.querySelector(".fontBoxChild");
+    const inputBox = document.querySelector(".inputBox");
+    const choiceBox = document.querySelector(".choiceBox");
+    const font = `LAB디지털`;
+
+    console.log(choiceBox.data);
+
+    const changeFont = addEventListener("change", (choiceBox) => {
+      console.log(document.querySelector("data"));
+      // choiceBox.preventDefault;
+      font = `${choiceBox}`;
+      console.log(choiceBox);
+    })
+
+    fontBoxChild.innerHTML = `${font}`;
+    fontBoxChild.style.fontFamily = `${font}`;
+    inputBox.style.fontFamily = `${font}`;
+  </script>
+
+</body>
+
+</html>
