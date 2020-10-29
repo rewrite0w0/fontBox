@@ -176,8 +176,8 @@ option {
 
 @font-face {
   font-family: 'kbiz';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumMyungjo.woff') format('woff');
-  font-weight: normal;
+  src: url('https://cdn.jsdelivr.net/gh/rewrite0w0/fontBox@master/fontBox/KBIZBA.woff') format('woff');
+  font-weight: bolder;
   font-style: normal;
 }
 
@@ -203,8 +203,6 @@ option {
   font-weight: normal;
   font-style: normal;
 }
-
-
 
 @font-face {
   font-family: 'ChosunBg';

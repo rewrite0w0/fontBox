@@ -37,10 +37,11 @@ const fontFunc = () => FONT.addEventListener("change", () => {
   const index = FONT.selectedIndex;
   const pick = FONTS[index].attributes[5];
   const rep = pick.value;
-  console.log(rep);
+  const numName = FONT[index].textContent;
+  // console.log(rep);
   const toRightBox = rep.replace(/[\{\}\[\]\/?.,;:|\)*~`!^\-_+<>@\#$%&\\\=\(\'\"]/gi, '').slice(rep.indexOf(" ") - 1);
-  console.log(toRightBox);
-  fontBoxChild.innerHTML = `${toRightBox}`;
+  // console.log(toRightBox);
+  fontBoxChild.innerHTML = `${numName}`;
   fontBoxChild.style.fontFamily = `${toRightBox}`;
   // fontBoxChild.style.fontWeight = `bolder`;
   inputBox.style.fontFamily = `'${toRightBox}'`;
@@ -52,6 +53,9 @@ const fontFunc = () => FONT.addEventListener("change", () => {
   // console.log(pick);
   // console.log(rep);
   // console.log(FONTS[5].attributes[5]);
+  
+  // console.log(test);
+
 });
 
 fontFunc();
