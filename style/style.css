@@ -117,8 +117,8 @@ option {
 
 
 @font-face {
-  font-family: 'NotoSansKR';
-  src: url('https://cdn.jsdelivr.net/gh/rewrite0w0/fontBox@master/fontBox/NotoSansKRBold.woff') format('woff');
+  font-family: 'NotoSans';
+  src: url('https://cdn.jsdelivr.net/gh/rewrite0w0/fontBox@master/fontBox/NotoSansBold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -197,6 +197,13 @@ option {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'NanumBarunGothic';
+  src: url('https://cdn.jsdelivr.net/gh/rewrite0w0/fontBox@master/fontBox/NanumBarunGothicBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 @font-face {
@@ -205,13 +212,6 @@ option {
   font-weight: normal;
   font-style: normal;
 }
-
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap');
-
-
 
 @font-face {
   font-family: 'Littlebear';
