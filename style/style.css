@@ -13,9 +13,7 @@ button {
 
 }
 
-.buttonBox {
-  
-}
+.buttonBox {}
 
 span {
   font-size: 0.8rem;
@@ -57,6 +55,7 @@ span {
   height: 4vh;
   width: 18vh;
 }
+
 /* .choiceBox::after {
   height: 4vh;
 } */
@@ -101,11 +100,10 @@ option {
 }
 
 .fontBoxLeft {
-   grid-row: 50%;
+  grid-row: 50%;
 }
-.choiceContainer {
 
-}
+.choiceContainer {}
 
 
 @font-face {
@@ -139,7 +137,6 @@ option {
   font-style: normal;
 }
 
-
 @font-face {
   font-family: 'ygjalnan';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
@@ -163,8 +160,6 @@ option {
   font-weight: normal;
   font-style: normal;
 }
-
-
 
 @font-face {
   font-family: 'TmonMonsori';
@@ -235,6 +230,7 @@ option {
   font-weight: normal;
   font-style: normal;
 }
+
 /* 
 #font0{
   font-family: 'Press Start 2P';

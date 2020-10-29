@@ -38,6 +38,7 @@ const fontFunc = () => FONT.addEventListener("change", () => {
   const pick = FONTS[index].attributes[5];
   const rep = pick.value;
   const numName = FONT[index].textContent;
+  // console.log(numName);
   // console.log(rep);
   const toRightBox = rep.replace(/[\{\}\[\]\/?.,;:|\)*~`!^\-_+<>@\#$%&\\\=\(\'\"]/gi, '').slice(rep.indexOf(" ") - 1);
   // console.log(toRightBox);
@@ -48,7 +49,6 @@ const fontFunc = () => FONT.addEventListener("change", () => {
   choiceBox.style.fontFamily = `'${toRightBox}'`
   // const replace = rep.slice(rep.indexOf(": ")+3).slice(rep.indexOf("';"));
   // console.log(replace);
-  // fontBoxChild.innerHTML = `${toRightBox}`;
   // console.log(index);
   // console.log(pick);
   // console.log(rep);
