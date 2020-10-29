@@ -196,8 +196,8 @@ option {
   font-family: 'NanumBarunGothic';
   font-style: normal;
   font-weight: 700;
-  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
-  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+  src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+  src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
 }
 
 
@@ -211,11 +211,8 @@ option {
 
 
 
-@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
-.nanumgothic * {
-  font-family: 'Nanum Gothic', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap');
 
 
 
@@ -243,12 +240,71 @@ option {
   font-weight: normal;
   font-style: normal;
 }
+/* 
+#font0{
+  font-family: 'Press Start 2P';
+}
 
+#font1{
+  font-family: '777Littlebear';
+}
 
+#font2{
+  font-family: 'InkLipquid';
+}
 
+#font3{
+  font-family: 'drfont';
+}
 
+#font4{
+  font-family: 'KBIZ한마음명조체';
+}
 
+#font5{
+  font-family: 'circleB';
+}
 
-/* 더페이스샵잉크립 */
-/* 777리틀베어 */
-/* 쿠키런 */
+#font6{
+  font-family: 'circleM';
+}
+
+#font7{
+  font-family: 'NotoSansKR';
+}
+
+#font8{
+  font-family: 'NanumBarunGothic'
+}
+
+#font9{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+#font10{
+  font-family: 'MaplestoryBold';
+}
+
+#font11{
+  font-family: 'CookieRun-Bold';
+}
+
+#font12{
+  font-family: 'ChosunBg';
+}
+
+#font13{
+  font-family: 'Recipekorea';
+}
+
+#font14{
+  font-family: 'TTTogether';
+}
+
+#font15{
+  font-family: 'yg-jalnan';
+}
+
+#font16{
+  font-family: 'TmonMonsori';
+} */
