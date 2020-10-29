@@ -58,7 +58,16 @@ const fontFunc = () => FONT.addEventListener("change", () => {
 
 });
 
-fontFunc();
+
+
+
+const blockContext = () => {
+  if (document.addEventListener) {
+    document.addEventListener("contextmenu", (e) => {
+      e.preventDefault();
+    })
+  }
+}
 
 
 
@@ -93,14 +102,14 @@ fontFunc();
 // var content = $('#oi_report_contact_sex option:selected').html();
 
 // console.log(strUser);
-const pickFont = () => choiceBox.addEventListener("change", (e) => {
-  // 폰트를 잡아서 내보내려합니다.
-  const FONTS = document.querySelectorAll(".fonts");
-  console.log(FONTS)
-  console.log(e.target);
-  console.log(e.target.style.fontFamily);
+// const pickFont = () => choiceBox.addEventListener("change", (e) => {
+//   // 폰트를 잡아서 내보내려합니다.
+//   const FONTS = document.querySelectorAll(".fonts");
+//   console.log(FONTS)
+//   console.log(e.target);
+//   console.log(e.target.style.fontFamily);
 
-})
+// })
 
 // pickFont();
 
@@ -147,15 +156,6 @@ const pickFont = () => choiceBox.addEventListener("change", (e) => {
 
 
 
-
-const blockContext = () => {
-  if (document.addEventListener) {
-    document.addEventListener("contextmenu", (e) => {
-      e.preventDefault();
-    })
-  }
-}
-
 // function font_apply() {
 //   fontBoxChild.innerHTML = `${FONT}`;
 //   fontBoxChild.style.fontFamily = `${FONT}`;
@@ -166,7 +166,7 @@ const blockContext = () => {
 
 function init() {
   blockContext();
-  // font_apply();
+  fontFunc();
 }
 
 init();
