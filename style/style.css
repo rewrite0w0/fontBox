@@ -118,7 +118,7 @@ option {
 
 @font-face {
   font-family: 'NotoSansKR';
-  src: url('https://cdn.jsdelivr.net/gh/rewrite0w0/fontBox@master/fontBox/NotoSansKR-Bold.woff') format('woff');
+  src: url('https://cdn.jsdelivr.net/gh/rewrite0w0/fontBox@master/fontBox/NotoSansKRBold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -190,14 +190,11 @@ option {
 }
 
 
-
-
 @font-face {
-  font-family: 'NanumBarunGothic';
+  font-family: 'NanumBarun';
+  src: url('https://cdn.jsdelivr.net/gh/rewrite0w0/fontBox@master/fontBox/NanumGothicBold.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
-  font-weight: 700;
-  src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
-  src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
 }
 
 
@@ -217,7 +214,7 @@ option {
 
 
 @font-face {
-  font-family: '777Littlebear';
+  font-family: 'Littlebear';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/777Littlebear.woff') format('woff');
   font-weight: normal;
   font-style: normal;

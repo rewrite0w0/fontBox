@@ -28,18 +28,23 @@ const FONT = document.getElementById("choiceFont");
 
 // font-family: 'NanumBarunGothic';
 
+function myNewFunction(sel) {
+  console.log(sel.options[sel.selectedIndex].text);
+}
+
 
 const fontFunc = () => FONT.addEventListener("change", () => {
   const index = FONT.selectedIndex;
   const pick = FONTS[index].attributes[5];
   const rep = pick.value;
+  console.log(rep);
   const toRightBox = rep.replace(/[\{\}\[\]\/?.,;:|\)*~`!^\-_+<>@\#$%&\\\=\(\'\"]/gi, '').slice(rep.indexOf(" ") - 1);
   console.log(toRightBox);
   fontBoxChild.innerHTML = `${toRightBox}`;
   fontBoxChild.style.fontFamily = `${toRightBox}`;
-  fontBoxChild.style.fontWeight = `bold`;
-  inputBox.style.fontFamily = `${toRightBox}`;
-  choiceBox.style.fontFamily = `${toRightBox}`
+  // fontBoxChild.style.fontWeight = `bolder`;
+  inputBox.style.fontFamily = `'${toRightBox}'`;
+  choiceBox.style.fontFamily = `'${toRightBox}'`
   // const replace = rep.slice(rep.indexOf(": ")+3).slice(rep.indexOf("';"));
   // console.log(replace);
   // fontBoxChild.innerHTML = `${toRightBox}`;
