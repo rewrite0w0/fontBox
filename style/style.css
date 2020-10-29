@@ -50,8 +50,16 @@ span {
 .fontBox .choiceBox {
   float: left;
   color: tomato;
+  /* width: 18vh; */
+}
+
+.choiceBox {
+  height: 4vh;
   width: 18vh;
 }
+/* .choiceBox::after {
+  height: 4vh;
+} */
 
 option {
   color: tomato;
@@ -89,7 +97,7 @@ option {
 }
 
 .fontBoxRight .inputBox {
-  font-family: 'Press Start 2P';
+  /* font-family: 'Press Start 2P'; */
 }
 
 .fontBoxLeft {
@@ -118,7 +126,7 @@ option {
 
 @font-face {
   font-family: 'circleB';
-  src: url('https://cdn.jsdelivr.net/gh/rewrite0w0/fontBox@master/fontBox/circleB.woff.woff') format('woff');
+  src: url('https://cdn.jsdelivr.net/gh/rewrite0w0/fontBox@master/fontBox/circleB.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
