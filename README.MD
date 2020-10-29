@@ -1,1 +1,1 @@
-fontBox입니다.
+for friend.

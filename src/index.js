@@ -1,9 +1,8 @@
 const fontBoxChild = document.querySelector(".fontBoxRight");
 const inputBox = document.querySelector(".inputBox");
 const choiceBox = document.querySelector(".choiceBox");
-const FONT = "TmonMonsori";
 const FONTS = document.querySelectorAll(".fonts");
-const con = document.getElementById("choiceFont");
+const FONT = document.getElementById("choiceFont");
 
 
 // var selectedCollection = HTMLSelectElement.selectedOptions;
@@ -30,22 +29,27 @@ const con = document.getElementById("choiceFont");
 // font-family: 'NanumBarunGothic';
 
 
-con.addEventListener("change", () =>{
-  const index = con.selectedIndex;
-  const pick = FONTS[index].attributes[5]
-  const rep = pick.value
-  const toRightBox = rep.replace(/[\{\}\[\]\/?.,;:|\)*~`!^\-_+<>@\#$%&\\\=\(\'\"]/gi,'').slice(rep.indexOf(" ")-1);
-  // console.log(repe)
+const fontFunc = () => FONT.addEventListener("change", () => {
+  const index = FONT.selectedIndex;
+  const pick = FONTS[index].attributes[5];
+  const rep = pick.value;
+  const toRightBox = rep.replace(/[\{\}\[\]\/?.,;:|\)*~`!^\-_+<>@\#$%&\\\=\(\'\"]/gi, '').slice(rep.indexOf(" ") - 1);
+  console.log(toRightBox);
+  fontBoxChild.innerHTML = `${toRightBox}`;
+  fontBoxChild.style.fontFamily = `${toRightBox}`;
+  fontBoxChild.style.fontWeight = `bold`;
+  inputBox.style.fontFamily = `${toRightBox}`;
+  choiceBox.style.fontFamily = `${toRightBox}`
   // const replace = rep.slice(rep.indexOf(": ")+3).slice(rep.indexOf("';"));
   // console.log(replace);
-  fontBoxChild.innerHTML = `${toRightBox}`;
+  // fontBoxChild.innerHTML = `${toRightBox}`;
   // console.log(index);
   // console.log(pick);
   // console.log(rep);
   // console.log(FONTS[5].attributes[5]);
-})
+});
 
-
+fontFunc();
 
 
 
@@ -86,7 +90,7 @@ const pickFont = () => choiceBox.addEventListener("change", (e) => {
   console.log(FONTS)
   console.log(e.target);
   console.log(e.target.style.fontFamily);
-  
+
 })
 
 // pickFont();
@@ -143,17 +147,17 @@ const blockContext = () => {
   }
 }
 
-function font_apply() {
-  fontBoxChild.innerHTML = `${FONT}`;
-  fontBoxChild.style.fontFamily = `${FONT}`;
-  inputBox.style.fontFamily = `${FONT}`;
-  choiceBox.style.fontFamily = `${FONT}`
-}
+// function font_apply() {
+//   fontBoxChild.innerHTML = `${FONT}`;
+//   fontBoxChild.style.fontFamily = `${FONT}`;
+//   inputBox.style.fontFamily = `${FONT}`;
+//   choiceBox.style.fontFamily = `${FONT}`
+// }
 
 
 function init() {
   blockContext();
-  font_apply();
+  // font_apply();
 }
 
 init();

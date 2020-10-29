@@ -141,7 +141,7 @@ option {
 
 
 @font-face {
-  font-family: 'yg-jalnan';
+  font-family: 'ygjalnan';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -174,13 +174,13 @@ option {
 }
 
 
-
 @font-face {
-  font-family: 'KBIZ한마음명조체';
+  font-family: 'kbiz';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumMyungjo.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
 
 @font-face {
   font-family: 'MaplestoryBold';
@@ -235,7 +235,7 @@ option {
 
 
 @font-face {
-  font-family: 'CookieRun-Bold';
+  font-family: 'CookieRunBold';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -258,7 +258,7 @@ option {
 }
 
 #font4{
-  font-family: 'KBIZ한마음명조체';
+  font-family: 'KBIZHanmaumMyungjo';
 }
 
 #font5{
