@@ -6,29 +6,16 @@
   overflow: hidden;
 }
 
-/* button {
-  all: unset;
-  color: blueviolet;
-  height: 25px;
-  width: 25px;
-
-} */
-/* 
-.buttonBox {
-
-} */
-
-span {
-  font-size: 0.8rem;
-}
-
 .fontContainer {
   margin: 2rem;
   border: 2rem;
-  background-color: aqua;
+  /* background-color: aqua; */
+  background-color: #ffffff;
   display: block;
   height: 480px;
   width: 480px;
+  border: 0.1rem groove bisque
+  
 }
 
 .fontContainer:hover {
@@ -37,7 +24,7 @@ span {
 
 .fontBox {
   padding: 0.5rem;
-  background-color: #78e08f;
+  background-color: #ffffff;
   color: #0c2461;
   height: 25%;
   width: 100%;
@@ -49,20 +36,34 @@ span {
   grid-template-columns: 1fr 2fr;
 }
 
+
 .fontBox .choiceBox {
   float: left;
   color: #0a3d62;
-  /* width: 18vh; */
+  
+}
+
+.br{
+  align-content: center;
+  margin-left: 10%;
+  display: block;
+  width: 80%;
+  border-bottom: 1px solid #bcbcbc;
 }
 
 .choiceBox {
-  height: 4vh;
-  width: 18vh;
+  height: 4.5vh;
+  width: 14vh;
+  font-size: 1.7rem;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: transparent;
+  appearance: none;
+  border: 0.1rem groove bisque
+  
+
 }
 
-/* .choiceBox::after {
-  height: 4vh;
-} */
 
 option {
   color: #0a3d62;
@@ -78,7 +79,8 @@ option {
 
 .textBox {
   padding: 0.5rem;
-  background-color: #38ada9;
+  /* background-color: #38ada9; */
+  background-color: transparent;
   height: 75%;
   width: 100%;
 }
@@ -100,14 +102,14 @@ option {
 }
 
 .fontBoxRight .inputBox {
-  /* font-family: 'Press Start 2P'; */
+  font-size: 5rem;
 }
 
 .fontBoxLeft {
   grid-row: 50%;
 }
 
-.choiceContainer {}
+
 
 
 @font-face {
