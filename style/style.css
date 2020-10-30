@@ -13,7 +13,7 @@
   display: block;
   height: 360px;
   width: 480px;
-  border: 0.1rem groove bisque;
+  border: 0.2rem groove bisque;
   text-shadow: 0.1rem 0.1rem 0.1rem #bcbcbc;
 }
 
@@ -36,10 +36,13 @@
 }
 
 
+select#choiceFont{
+  text-align-last: center;
+}
+
 .fontBox .choiceBox {
   float: left;
   color: #0a3d62;
-
 }
 
 .br {
@@ -51,18 +54,23 @@
 }
 
 .choiceBox {
-  height: 4.5vh;
-  width: 14vh;
+  /* height: 4.5vh;
+  width: 14vh; */
+  height: 3rem;
+  width: 8.5rem;
   font-size: 1.7rem;
   overflow: hidden;
   cursor: pointer;
   background-color: transparent;
   appearance: none;
-  border: 0.1rem groove bisque;
+  border: 0.2rem groove #f7f1e3;
 }
 
 option {
   color: #0a3d62;
+}
+.fonts{
+  font-size: 1.4rem;
 }
 
 /* optgroup {
