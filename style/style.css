@@ -23,7 +23,7 @@
 
 .fontBox {
   padding: 0.5rem;
-  background-color: #ffffff;
+  background-color: #fef5f0;
   color: #0c2461;
   height: 25%;
   width: 100%;
@@ -47,7 +47,7 @@
   margin-left: 10%;
   display: block;
   width: 80%;
-  border-bottom: 0.1vh solid #bcbcbc;
+  border-bottom: 0.1vh groove #f7d794;
 }
 
 .choiceBox {
