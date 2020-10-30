@@ -380,12 +380,12 @@ option {
 
 /*  */
 
-/* 
+
 @media all and (min-width:561px) and (max-width: 760px) {
 
   * {
     font-size: 80%;
-    background-color: blue;
+    /* background-color: blue; */
   }
 
   .fontContainer {
@@ -396,4 +396,4 @@ option {
     width: 80%;
   }
 
-} */
+}

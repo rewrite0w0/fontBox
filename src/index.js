@@ -61,13 +61,13 @@ const fontFunc = () => FONT.addEventListener("change", () => {
 
 
 
-const blockContext = () => {
-  if (document.addEventListener) {
-    document.addEventListener("contextmenu", (e) => {
-      e.preventDefault();
-    })
-  }
-}
+// const blockContext = () => {
+//   if (document.addEventListener) {
+//     document.addEventListener("contextmenu", (e) => {
+//       e.preventDefault();
+//     })
+//   }
+// }
 
 
 
@@ -164,18 +164,8 @@ const blockContext = () => {
 // }
 
 
-
-
-
-
-
-
-
-
-
-
 function init() {
-  blockContext();
+  // blockContext();
   fontFunc();
 }
 
