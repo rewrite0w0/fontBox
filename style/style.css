@@ -9,13 +9,12 @@
 .fontContainer {
   margin: 2rem;
   border: 2rem;
-  /* background-color: aqua; */
   background-color: #ffffff;
   display: block;
   height: 480px;
   width: 480px;
-  border: 0.1rem groove bisque
-  
+  border: 0.1rem groove bisque;
+  text-shadow: 0.1rem 0.1rem 0.1rem #bcbcbc;
 }
 
 .fontContainer:hover {
@@ -40,15 +39,15 @@
 .fontBox .choiceBox {
   float: left;
   color: #0a3d62;
-  
+
 }
 
-.br{
+.br {
   align-content: center;
   margin-left: 10%;
   display: block;
   width: 80%;
-  border-bottom: 1px solid #bcbcbc;
+  border-bottom: 0.1vh solid #bcbcbc;
 }
 
 .choiceBox {
@@ -59,11 +58,8 @@
   cursor: pointer;
   background-color: transparent;
   appearance: none;
-  border: 0.1rem groove bisque
-  
-
+  border: 0.1rem groove bisque;
 }
-
 
 option {
   color: #0a3d62;
@@ -103,10 +99,12 @@ option {
 
 .fontBoxRight .inputBox {
   font-size: 5rem;
+  grid-row: 50%;
 }
 
 .fontBoxLeft {
   grid-row: 50%;
+  margin: 0.5rem;
 }
 
 
