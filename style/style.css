@@ -36,7 +36,7 @@
 }
 
 
-select#choiceFont{
+select#choiceFont {
   text-align-last: center;
 }
 
@@ -69,7 +69,8 @@ select#choiceFont{
 option {
   color: #0a3d62;
 }
-.fonts{
+
+.fonts {
   font-size: 1.4rem;
 }
 
@@ -320,19 +321,18 @@ option {
 /* media */
 
 
-@media all and(min-width: 460px){
-  
+@media all and(max-width:360px) {
+
   * {
     font-size: 50%;
-  }
-  
-  .fontContainer{
-    /* height: 100%; */
-    width: 50%;
-    /* background-color: blue; */
+    background-color: red;
   }
 
-  .choiceBox{
+  .fontContainer {
+    width: 50%;
+  }
+
+  .choiceBox {
     width: 50%;
   }
 
@@ -340,60 +340,60 @@ option {
 
 /*  */
 
-@media all and(max-width: 760px){
-  
+@media all and (min-width:361px) and (max-width: 460px) {
+
   * {
     font-size: 60%;
-  }
-  
-  .fontContainer{
-    /* height: 100%; */
-    width: 60%;
-    /* background-color: blue; */
+    /* background-color: orange; */
   }
 
-  .choiceBox{
+  .fontContainer {
     width: 60%;
+  }
+
+  .choiceBox {
+    width: 60%;
+  }
+
+}
+
+
+
+/*  */
+
+@media all and (min-width:461px) and (max-width: 560px) {
+
+  * {
+    font-size: 80%;
+    /* background-color: green; */
+  }
+
+  .fontContainer {
+    width: 80%;
+  }
+
+  .choiceBox {
+    width: 80%;
   }
 
 }
 
 /*  */
 
-@media all and (max-width: 960px){
-  
+/* 
+@media all and (min-width:561px) and (max-width: 760px) {
+
   * {
     font-size: 80%;
-  }
-  
-  .fontContainer{
-    /* height: 100%; */
-    width: 80%;
-    /* background-color: blue; */
+    background-color: blue;
   }
 
-  .choiceBox{
+  .fontContainer {
     width: 80%;
   }
 
-}
-/*  */
-
-
-@media all and (max-width: 1280px){
-  
-  * {
-    font-size: 80%;
-  }
-  
-  .fontContainer{
-    /* height: 100%; */
-    width: 80%;
-    /* background-color: blue; */
-  }
-
-  .choiceBox{
+  .choiceBox {
     width: 80%;
   }
 
-}
+} */
