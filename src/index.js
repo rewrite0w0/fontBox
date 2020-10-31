@@ -113,13 +113,13 @@ const fontFunc = () => FONT.addEventListener("change", () => {
 
 // pickFont();
 
-// function blockContext(){
-//   if(document.addEventListener){
-//     document.addEventListener("contextmenu",(e)=>{
-//       e.preventDefault();
-//     })
-//   }
-// }
+function blockContext(){
+  if(document.addEventListener){
+    document.addEventListener("contextmenu",(e)=>{
+      e.preventDefault();
+    })
+  }
+}
 
 // FONTS.addEventListener("change",(e)=>{
 //   console.log(e.target);
@@ -165,7 +165,7 @@ const fontFunc = () => FONT.addEventListener("change", () => {
 
 
 function init() {
-  // blockContext();
+  blockContext();
   fontFunc();
 }
 
