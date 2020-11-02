@@ -3,12 +3,22 @@
   border: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
+}
+
+title {
+  visibility: hidden;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  align-items: center;
 }
 
 .fontContainer {
-  margin: 2rem;
-  border: 2rem;
+  margin: 1rem;
+  border: 1rem;
   background-color: #ffffff;
   display: block;
   height: 360px;
@@ -26,23 +36,45 @@
   background-color: #fef5f0;
   color: #0c2461;
   height: 25%;
-  width: 100%;
+  flex: initial;
+  /* width: 100%; */
   font-size: 2rem;
-  align-items: center;
-  padding-top: 1rem;
+  /* align-items: center; */
+  /* padding-top: 1rem; */
   text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  /* display: flex; */
+  /* grid-template-columns: 1fr 2fr; */
 }
 
+.fontContainer > .fontBox{
+  height: 5.5rem;
+}
 
+.fontContainer > .br{
+  
+}
+
+.fontContainer > .textbox{
+  /* height: ; */
+}
+
+.fontBox > .fontBoxLeft{
+  width: 5rem;
+}
+
+.fontBox > .fontBoxRight{
+  flex:auto
+}
 select#choiceFont {
   text-align-last: center;
+  
 }
 
 .fontBox .choiceBox {
   float: left;
   color: #0a3d62;
+  
 }
 
 .br {
@@ -56,14 +88,17 @@ select#choiceFont {
 .choiceBox {
   /* height: 4.5vh;
   width: 14vh; */
-  height: 3.5rem;
+  /* height: 3.5rem; */
   width: 8.5rem;
+  /* height: auto; */
   font-size: 2rem;
   overflow: hidden;
   cursor: pointer;
   background-color: transparent;
   appearance: none;
   border: 0.2rem groove #f7f1e3;
+  /* justify-content: center;
+  flex: content; */
 }
 
 option {
@@ -87,7 +122,7 @@ option {
   /* background-color: #38ada9; */
   background-color: transparent;
   height: 75%;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .inputBox {
@@ -95,9 +130,11 @@ option {
   background-color: transparent;
   width: 100%;
   height: 100%;
+  flex: initial;
   overflow: hidden;
   resize: none;
   font-size: 2rem;
+  margin-top: 0;
 }
 
 select,
@@ -108,11 +145,18 @@ option {
 
 .fontBoxRight .inputBox {
   font-size: 5rem;
-  grid-row: 50%;
+  /* grid-row: 50%; */
+}
+
+.fontBoxRight {
+  flex: auto;
+  justify-content: center;
+  overflow: visible;
+  font-size: 2.25rem;
 }
 
 .fontBoxLeft {
-  grid-row: 50%;
+  /* grid-row: 50%; */
   margin: 0.5rem;
 }
 
@@ -324,17 +368,16 @@ option {
 @media all and(max-width:360px) {
 
   * {
-    font-size: 50%;
-    background-color: red;
+    flex: auto;
   }
 
-  .fontContainer {
+  /* .fontContainer {
     width: 50%;
   }
 
   .choiceBox {
     width: 50%;
-  }
+  } */
 
 }
 
@@ -343,17 +386,17 @@ option {
 @media all and (min-width:361px) and (max-width: 460px) {
 
   * {
-    font-size: 60%;
-    /* background-color: orange; */
+    flex: auto;
+    
   }
 
-  .fontContainer {
+  /* .fontContainer {
     width: 60%;
   }
 
   .choiceBox {
     width: 60%;
-  }
+  } */
 
 }
 
@@ -364,17 +407,17 @@ option {
 @media all and (min-width:461px) and (max-width: 560px) {
 
   * {
-    font-size: 80%;
-    /* background-color: green; */
+    flex: auto;
+    
   }
-
+/* 
   .fontContainer {
     width: 80%;
   }
 
   .choiceBox {
     width: 80%;
-  }
+  } */
 
 }
 
@@ -384,16 +427,34 @@ option {
 @media all and (min-width:561px) and (max-width: 760px) {
 
   * {
-    font-size: 80%;
-    /* background-color: blue; */
+    flex: auto;
+    
   }
-
+/* 
   .fontContainer {
     width: 80%;
   }
 
   .choiceBox {
     width: 80%;
-  }
+  } */
 
 }
+
+
+
+
+
+
+/* 
+@media all and (max-width:760px){
+  *{
+    visibility: hidden;
+  }
+}
+
+@media all and (max-height:460px){
+  *{
+    visibility: hidden;
+  }
+} */
