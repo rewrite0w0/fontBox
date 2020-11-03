@@ -86,20 +86,14 @@ select#choiceFont {
 }
 
 .choiceBox {
-  /* height: 4.5vh;
-  width: 14vh; */
-  /* height: 3.5rem; */
   width: 8.5rem;
   height: 3.5rem;
-  /* height: auto; */
   font-size: 2rem;
   overflow: hidden;
   cursor: pointer;
   background-color: transparent;
   appearance: none;
   border: 0.2rem groove #f7f1e3;
-  /* justify-content: center;
-  flex: content; */
 }
 
 option {
