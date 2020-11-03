@@ -536,8 +536,84 @@ option {
 /*  */
 
 
+@media all and (min-width:561px) and (max-width:760px){
+  
+  .fontContainer 
+  .fontBox 
+  .choiceBox 
+  .textBox 
+  .inputBox {
+    
+  }
+
+  .fontContainer {
+    width: 90%;
+    
+  }
+  .fontBoxRight{
+    /* width: fit-content; */
+    font-size: 90%
+    /* font-size: 70% */
+  }
+  .fontBoxLeft{
+    /* width: 1rem; */
+    /* height: 5rem; */
+  }
+  .choiceBox{
+    width: max-content;
+    /* height: 50%; */
+    /* font-size: 40%; */
+  }
+
+  .fontBox {}
+
+  .choiceBox {}
+
+  .textBox .inputBox {}
 
 
+}
+
+/*  */
+
+
+@media all and (min-width:761px) and (max-width:960px){
+  
+  .fontContainer 
+  .fontBox 
+  .choiceBox 
+  .textBox 
+  .inputBox {
+    
+  }
+
+  .fontContainer {
+    width: 90%;
+    
+  }
+  .fontBoxRight{
+    /* width: fit-content; */
+    font-size: 90%
+    /* font-size: 70% */
+  }
+  .fontBoxLeft{
+    /* width: 1rem; */
+    /* height: 5rem; */
+  }
+  .choiceBox{
+    width: max-content;
+    /* height: 50%; */
+    /* font-size: 40%; */
+  }
+
+  .fontBox {}
+
+  .choiceBox {}
+
+  .textBox .inputBox {}
+
+
+}
 
 
 
