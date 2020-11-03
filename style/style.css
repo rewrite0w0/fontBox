@@ -47,7 +47,7 @@ article {
   /* grid-template-columns: 1fr 2fr; */
 }
 
-.examBox{
+.examBox {
   /* position:initial; */
 }
 
@@ -81,7 +81,8 @@ select#choiceFont {
   color: #0a3d62;
 
 }
-.choiceBox{
+
+.choiceBox {
   float: left;
   margin-left: 1rem;
   margin-top: 1rem;
@@ -374,38 +375,41 @@ option {
 
 /* media */
 
+@media all and (min-width:1px) and (max-width: 309px) {
+
+ *{
+   visibility: hidden;
+ }
+}
 
 
-/*  */
 
-@media all and (min-width:1px) and (max-width: 460px) {
+
+@media all and (min-width:310px) and (max-width: 460px) {
 
   /* article {
     background-color: red;
   } */
 
-  .fontContainer 
-  .fontBox 
-  .choiceBox 
-  .textBox 
-  .inputBox {
-    
-  }
+  .fontContainer .fontBox .choiceBox .textBox .inputBox {}
 
   .fontContainer {
     width: 90%;
-    
+
   }
-  .fontBoxRight{
+
+  .fontBoxRight {
     /* width: fit-content; */
     font-size: 90%
-    /* font-size: 70% */
+      /* font-size: 70% */
   }
-  .fontBoxLeft{
+
+  .fontBoxLeft {
     /* width: 1rem; */
     /* height: 5rem; */
   }
-  .choiceBox{
+
+  .choiceBox {
     width: max-content;
     /* height: 50%; */
     /* font-size: 40%; */
@@ -438,28 +442,25 @@ option {
     background-color: red;
   } */
 
-  .fontContainer 
-  .fontBox 
-  .choiceBox 
-  .textBox 
-  .inputBox {
-    
-  }
+  .fontContainer .fontBox .choiceBox .textBox .inputBox {}
 
   .fontContainer {
     width: 90%;
-    
+
   }
-  .fontBoxRight{
+
+  .fontBoxRight {
     /* width: fit-content; */
     font-size: 90%
-    /* font-size: 70% */
+      /* font-size: 70% */
   }
-  .fontBoxLeft{
+
+  .fontBoxLeft {
     /* width: 1rem; */
     /* height: 5rem; */
   }
-  .choiceBox{
+
+  .choiceBox {
     width: max-content;
     /* height: 50%; */
     /* font-size: 40%; */
@@ -486,30 +487,27 @@ option {
 /*  */
 
 
-@media all and (min-width:561px) and (max-width:760px){
-  
-  .fontContainer 
-  .fontBox 
-  .choiceBox 
-  .textBox 
-  .inputBox {
-    
-  }
+@media all and (min-width:561px) and (max-width:760px) {
+
+  .fontContainer .fontBox .choiceBox .textBox .inputBox {}
 
   .fontContainer {
     width: 90%;
-    
+
   }
-  .fontBoxRight{
+
+  .fontBoxRight {
     /* width: fit-content; */
     font-size: 90%
-    /* font-size: 70% */
+      /* font-size: 70% */
   }
-  .fontBoxLeft{
+
+  .fontBoxLeft {
     /* width: 1rem; */
     /* height: 5rem; */
   }
-  .choiceBox{
+
+  .choiceBox {
     width: max-content;
     /* height: 50%; */
     /* font-size: 40%; */
@@ -527,30 +525,27 @@ option {
 /*  */
 
 
-@media all and (min-width:761px) and (max-width:960px){
-  
-  .fontContainer 
-  .fontBox 
-  .choiceBox 
-  .textBox 
-  .inputBox {
-    
-  }
+@media all and (min-width:761px) and (max-width:960px) {
+
+  .fontContainer .fontBox .choiceBox .textBox .inputBox {}
 
   .fontContainer {
     width: 90%;
-    
+
   }
-  .fontBoxRight{
+
+  .fontBoxRight {
     /* width: fit-content; */
     font-size: 90%
-    /* font-size: 70% */
+      /* font-size: 70% */
   }
-  .fontBoxLeft{
+
+  .fontBoxLeft {
     /* width: 1rem; */
     /* height: 5rem; */
   }
-  .choiceBox{
+
+  .choiceBox {
     width: max-content;
     /* height: 50%; */
     /* font-size: 40%; */
