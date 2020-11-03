@@ -130,7 +130,7 @@ option {
   padding: 0.5rem;
   /* background-color: #38ada9; */
   background-color: transparent;
-  height: 75%;
+  height: 65%
   /* width: 100%; */
 }
 
@@ -139,7 +139,7 @@ option {
   background-color: transparent;
   width: 100%;
   height: 100%;
-  flex: initial;
+  /* flex: initial; */
   overflow: hidden;
   resize: none;
   font-size: 2rem;
@@ -165,7 +165,7 @@ option {
   /* float: center; */
   /* width: 30rem; */
   /* height: 100em; */
-  /* margin-top: 1.5rem; */
+  margin-top: 1.5rem;
 }
 
 .fontBoxLeft {
