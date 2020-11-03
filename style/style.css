@@ -21,8 +21,10 @@ article {
   border: 1rem;
   background-color: #ffffff;
   display: block;
-  height: 360px;
-  width: 480px;
+  /* height: 360px;
+  width: 480px; */
+  height: 24rem;
+  width: 22rem;
   border: 0.2rem groove bisque;
   text-shadow: 0.1rem 0.1rem 0.1rem #bcbcbc;
 }
@@ -159,11 +161,11 @@ option {
   /* flex: auto; */
   justify-content: center;
   /* overflow: inherit; */
-  font-size: 2.25rem;
-  float: center;
+  font-size: 2rem;
+  /* float: center; */
   /* width: 30rem; */
   /* height: 100em; */
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
 }
 
 .fontBoxLeft {
